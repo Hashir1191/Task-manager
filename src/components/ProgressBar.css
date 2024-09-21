@@ -1,0 +1,78 @@
+/* Progress Bar Styles */
+.progress-container {
+  width: 100%;
+  background-color: #e0e0df;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  margin: 20px 0;
+  height: 30px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #28a745;
+  border-radius: 20px;
+  transition: width 0.4s ease;
+}
+
+.progress-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  line-height: 30px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+}
+/* 3D Progress Bar */
+.progress-container {
+  width: 100%;
+  background-color: #e0e0df;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  margin: 20px 0;
+  height: 30px;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1); /* 3D Shadow inside */
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #28a745;
+  border-radius: 20px;
+  transition: width 0.4s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* 3D Shadow */
+}
+
+.progress-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  line-height: 30px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text Shadow */
+}
+.progress-container {
+  width: 100%;
+  background-color: #e0e0df;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  margin: 20px 0;
+  height: 30px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(135deg, #28a745, #219653);
+  border-radius: 20px;
+  transition: width 0.4s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
